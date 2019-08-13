@@ -6,7 +6,7 @@ describe('symbiont(1)', function() {
     let testPackage
 
 
-    it('can create a instance of Symbiont class', function() {
+    it('can create an instance of Symbiont class', function() {
       const Symbiont = require('../')
       testPackage = new Symbiont()
 
